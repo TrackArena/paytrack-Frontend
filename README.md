@@ -45,6 +45,12 @@ This frontend communicates exclusively with `paytrack-backend`. See the [backend
 
 The Vite dev server proxies `/api` requests to `http://localhost:3001` automatically. In production, configure your reverse proxy to route `/api` to the backend.
 
+## Architecture
+
+The full system architecture — data flow, database ERD, authentication design, and Stellar integration — is documented in the backend repository:
+
+→ [paytrack-backend/ARCHITECTURE.md](https://github.com/PayTrack/paytrack-backend/blob/main/ARCHITECTURE.md)
+
 ## Application Structure
 
 ```
